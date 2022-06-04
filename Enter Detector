@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+    printf("Type Whatever You Want to type:\n");
+    while(1){
+    if (getchar() == '\n') {
+    printf("*****************************************\nEnter Key Is Pressed\nBYE!\nHave A Good Day!");
+    break;
+    }
+  }
+  return 0;
+}
